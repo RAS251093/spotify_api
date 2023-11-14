@@ -3,16 +3,16 @@ package ras.spotify.model
 import spray.json.DefaultJsonProtocol.StringJsonFormat
 import spray.json.{JsValue, RootJsonFormat}
 
-case class ExtUrls(spotifyUrl: Option[String])
+case class ExtUrlsObj(spotifyUrl: Option[String])
 
-object ExtUrls{
-  implicit val jsonFormat: RootJsonFormat[ExtUrls] =
-    new RootJsonFormat[ExtUrls] {
-      override def write(obj: ExtUrls): JsValue = ???
+object ExtUrlsObj{
+  implicit val jsonFormat: RootJsonFormat[ExtUrlsObj] =
+    new RootJsonFormat[ExtUrlsObj] {
+      override def write(obj: ExtUrlsObj): JsValue = ???
 
-      override def read(json: JsValue): ExtUrls = {
+      override def read(json: JsValue): ExtUrlsObj = {
         val fields = json.asJsObject().fields
-        ExtUrls(
+        ExtUrlsObj(
           spotifyUrl = fields.get("spotify").map(json => json.convertTo[String])
         )
       }

@@ -4,14 +4,110 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="245f07a0-199c-474a-9ad0-a3c09fe78eab" name="Changes" comment="" />
+    <list default="true" id="245f07a0-199c-474a-9ad0-a3c09fe78eab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_13_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_13_10_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_13_10_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_13_10_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_13_10_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_13_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_13_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_13_2_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_13_0_4_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_13_1_3_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_13_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_36_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/spotify_lyrics-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/spotify_lyrics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/AccessTokenResponse.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/AlbumObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/Albums.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/ArtistObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/Artists.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/Audiobooks.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/AuthorObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/CopyrightObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/Episodes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/ExtIdObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/ExtUrlsObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/FollowersObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/ImgObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/ItemSearchResponse.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/NarratorObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/OwnerObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/Playlists.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/RestrictionReasonObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/ResumeObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/SearchTrackResponse.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/Shows.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/SimpleAudiobookObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/SimpleEpisodeObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/SimplePlaylistObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/SimpleShowObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/SpotifyClient.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/TrackObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/Tracks.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/ras/spotify/model/TracksObj.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spotify_lyrics" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -21,6 +117,35 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ras.Main" />
+      <module name="spotify_lyrics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ras.spotify.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,5 +157,16 @@
       <updated>1692647640324</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -3,16 +3,16 @@ package ras.spotify.model
 import spray.json.DefaultJsonProtocol.StringJsonFormat
 import spray.json.{JsValue, RootJsonFormat}
 
-case class RestrictionReason(reason: Option[String])
+case class RestrictionReasonObj(reason: Option[String])
 
-object RestrictionReason{
-  implicit val jsonFormat: RootJsonFormat[RestrictionReason] =
-    new RootJsonFormat[RestrictionReason] {
-      override def write(obj: RestrictionReason): JsValue = ???
+object RestrictionReasonObj{
+  implicit val jsonFormat: RootJsonFormat[RestrictionReasonObj] =
+    new RootJsonFormat[RestrictionReasonObj] {
+      override def write(obj: RestrictionReasonObj): JsValue = ???
 
-      override def read(json: JsValue): RestrictionReason = {
+      override def read(json: JsValue): RestrictionReasonObj = {
         val fields = json.asJsObject().fields
-        RestrictionReason(
+        RestrictionReasonObj(
           reason = fields.get("reason").map(json => json.convertTo[String])
         )
       }

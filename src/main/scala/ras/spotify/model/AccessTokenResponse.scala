@@ -1,9 +1,7 @@
-package ras
-import akka.http.scaladsl.unmarshalling.Unmarshal
-import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
+package ras.spotify.model
+
 import spray.json.DefaultJsonProtocol._
 import spray.json.{JsValue, RootJsonFormat}
-import spray.json._
 
 import scala.concurrent.duration.{DurationInt, FiniteDuration}
 
